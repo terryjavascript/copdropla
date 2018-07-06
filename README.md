@@ -2,8 +2,8 @@
 <img align="center" src="assets/images/profilepic.png" width="100%" alt="Profile Pic"/>
 </p>
 
-# HEROKU APP
-https://worldgif.herokuapp.com/
+# GITHUB DEPLOY APP
+https://terryjavascript.github.io/teetravelsworld/
 
 # WHAT TEETRAVELSWORLD?
 
