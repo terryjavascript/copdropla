@@ -1,0 +1,187 @@
+body{
+	background-image: url("../images/background.png");
+	/*background-repeat: no-repeat;*/
+	background-size: 28% 30%;
+	background-position: fixed;
+	background-repeat: no-repeat;
+	background-color: #F5FFFA;
+
+}
+
+h1{
+	margin-left: 20px;
+	font-size: 230%;
+	position: center;
+	font-family: 'Monoton', cursive;
+}
+
+h5{
+	margin-top: -20px;
+	margin-bottom: -50px;
+	font-size: 120%;
+	font-family: Lobster, Monospace;
+}
+
+
+h7{
+	color: black;
+}
+
+
+#head {
+	background-color: none;
+	margin-top: 40px;
+	padding-top: 10px;
+}
+
+.zipcode{
+	position: absolute;
+	margin-top: 30px;
+	width: 300px;
+	top: 28%;
+	left: 75%;
+}
+
+#zip {
+	font-size: 18px;
+	text-align: center;
+	border-radius: 25px;
+	border: 2px solid DodgerBlue;
+	background: white;
+	color: black;
+	width: 70%;
+}
+
+
+/* moving font style*/
+.text {
+  font-size: 2em;
+  font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:600; font-stretch:normal; - See more at: http://rachaelmoore.name/posts/design/css/web-safe-helvetica-font-stack/#sthash.9e3VMm1s.dpuf;
+	font-style: italic;
+	color: white;
+	background-color: #87CEFA;
+	margin-bottom: 1px;
+}
+
+.container_head {
+	height: 200px;
+	padding: 3px;
+	margin-left: 40px;
+	width: 400px;
+}
+
+.container {
+	margin-right: 0px;
+}
+
+.outer_container {
+	text-align: center;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+/*end*/
+#entire{
+	box-sizing: border-box;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	width: 100%;
+	height: 80%;
+}
+
+/* right side of the div style */
+#div_left{
+	margin-top: 50px;
+}
+
+#head{
+	margin-top: -50px;
+}
+
+.btn {
+	width:32px;
+	height:32px;
+}
+
+#slide {
+	float: left;
+	margin-left: 10px;
+	margin-right: 5px;
+	padding-top: 1px;
+	padding-bottom: 10px;
+	padding-left: 7px;
+	width: 350px;
+	height: 350px;
+
+}
+
+.search {
+	padding-left: 95px;
+	padding-top: -10px;
+	margin-top: 10px;
+	border-radius: 25px;
+	height: 60px;
+    font-size:15pt;
+}
+
+#submit{
+	background-color: black;
+	border: solid black;
+	width: 20%;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+/*portal navigation */
+
+#portal {
+  position: absolute;
+  width: 100%;
+  top: 75%;
+  left: 54%;
+  max-width: 355px;
+  height: 205px;
+  margin: -100px 0 0 -150px;
+  background: #fff;
+  border: 0.5px solid #ddd;
+  border-radius: 10px;
+  z-index: 15;
+}
+
+.social{
+	padding-bottom: 3px;
+}
+
+h6{
+	font-size: 18px;
+	font-style: italic;
+	text-align: center;
+}
+
+
+/* div right styling */
+#div_right{
+}
+
+/* footer text */
+h4 {
+	color: #87CEFA;
+	font-size:  15px;
+	font-style: italic;
+	text-align: center;
+}
+
+
+#footer {
+	position: fixed;
+	bottom: 1px;	
+}
+
+
+li {
+  list-style-type: none;
+}

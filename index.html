@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>teetravelsworld</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!--link css and jquery-->
+    <link rel="stylesheet" href="assets/css/weatherstyle.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/application.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!--linking firebase and angular-->
+    <script src="https://www.gstatic.com/firebasejs/3.6.6/firebase.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+
+    <!--linking google font and styling -->
+    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+    <script src="https://use.fontawesome.com/4bef1fec21.js"></script>
+
+</head>
+
+<body>
+    <!--left column-->
+    <div class="container-fluid" >
+        <div class="row" id="entire">
+            <div class="col-md-7" id="div_left">
+                <div class="row" id="head">
+                    
+                    <a href="https://www.teetravelsworld.com"><h1>by teetravelsworld.</h1></a>
+                    <h4> all-in-one traveling  platform </h4>
+                </div>
+
+                <!--Search box display-->
+                <div class="search row">
+                   
+                </div>
+
+                <!--audio playlist -->
+                    <div class="col-md-2" id="music">
+                        <audio src="js/audiojs/odesza.mp3" preload="auto"/>
+                    </div>
+
+                <!--logo-->
+
+                <div class="row outer_container">
+                    <div class="container_head">
+                        <img id="slide" src="assets/images/image0.png">
+                    </div>
+                </div>
+
+
+                <!--Cool Font FUNCTION-->
+                <div class="row outer_container">
+                    <div class="container_head">
+                        <div class="text">eat.</div>
+                        <div class="text hidden">sleep.</div>
+                        <div class="text hidden">travel.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!--RIGHT COLUMN-->
+
+            <div id="div_right">
+                <!--Google Map API display-->
+                    <div class="col-md-2" id="map">
+                    </div>
+
+                <!--search tip box -->
+                    <div class="col-md-2" id="portal">
+                     <h6>Portal Box</h6>
+
+                    <a href="https://www.skyscanner.com/"><img src="assets/images/skyscanner.png" width="50" height="50" alt="" class="social" alt="SkyScanner"/></a>
+                    <a href="https://www.kayak.com/"><img src="assets/images/kayak.png" width="50" height="50" alt="" class="social" alt="Kayak"/></a>
+                    <a href="https://www.expedia.com/"><img src="assets/images/expedia.png" width="50" height="50" alt="" class="social" alt="Expedia"/></a>
+                    <a href="https://www.ryanair.com/"><img src="assets/images/ryanair.png" width="50" height="50" alt="" class="social" alt="Ryanair"/></a>
+                    <a href="https://www.agoda.com/"><img src="assets/images/agoda.png" width="50" height="50" alt="" class="social" alt="Agoda"/></a>
+                    <a href="https://www.airbnb.com/"><img src="assets/images/airbnb.png" width="50" height="50" alt="" class="social" alt="Airbnb"/></a>
+                    <a href="https://www.starwoodhotels.com/preferredguest/index.html"><img src="assets/images/spg.png" width="50" height="50" alt="" class="social" alt="SPG"/></a>
+                    <a href="https://www.turo.com/"><img src="assets/images/turo.png" width="50" height="50" alt="" class="social" alt="Turo"/></a>
+                    <a href="https://www.yelp.com/"><img src="assets/images/yelp.png" width="50" height="50" alt="" class="social" alt="Yelp"/></a>
+                    <a href="https://www.tripadvisor.com/"><img src="assets/images/tripadvisor.png" width="50" height="50" alt="" class="social" alt="Trip Advisor"/></a>
+                    <a href="https://www.smartdestinations.com/"><img src="assets/images/gocity.png" width="50" height="50" alt="" class="social" alt="GoCity"/></a>
+                    <a href="https://www.groupon.com/"><img src="assets/images/groupon.png" width="50" height="50" alt="" class="social" alt="Groupon"/></a>
+                    <a href="https://cibtvisas.com/visa-quick-check"><img src="assets/images/cibt.png" width="50" height="50" alt="" class="social" alt="CIBT"/></a>
+                    <a href="https://www.xe.com/currencyconverter/"><img src="assets/images/xe.png" width="50" height="50" alt="" class="social" alt="XE"/></a>
+                    <a href="https://www.schwab.com/"><img src="assets/images/charles.png" width="50" height="50" alt="" class="social" alt="Schwab"/></a>
+                    <a href="https://www.amazon.com/"><img src="assets/images/amazon.png" width="50" height="50" alt="" class="social" alt="Amazon"/></a>
+                    <a href="https://slickdeals.net/"><img src="assets/images/slickdeals.png" width="50" height="50" alt=""class="social" alt="Slickdeals"/></a>
+                    <a href="https://www.kakaocorp.com/service/KakaoTalk?lang=en"><img src="assets/images/kakao.png" width="50" height="50" alt="" class="social" alt="Kakao"/></a>
+
+                  </div>
+
+                <!--Weather display-->
+                <div class="weather-box col-md-2"></div>
+               
+                <div class="zipcode col-md-2">
+                 <form action="submit">
+                        <input id="zip" type="text" placeholder="enter zipcode" required=""/>
+                        <button type="submit" class="btn btn-primary" id="submit"> <i class="fa fa-map-marker"> </i></button>
+                    </form></div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--chatbox support-->
+    <div class="row">
+        <div class="col-md-4" id="chatbox">
+            <div class="minimize-button"> CHATBOX
+                <span id="minimize-button">_</span>
+            </div>
+            <div id="chatwindow">
+                <div class="wrapper">
+                </div>
+                <br>
+                <div class="initModal">
+                    <h7>Username (Press Enter)</h7>
+                    <input type="text" class="username" placeholder="Your Name" required/>
+                </div>
+                <br>
+                <div class="msg">
+                    <h7>Message</h7>
+                    <input class="message" type="text" placeholder="Message"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--copyright/ footer-->
+    <footer>
+        <div id="footer" class="container">
+            <h4 id="copyright">&copy; Copyright 2018 teetravelsworld.</h4>
+        </div>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="js/slideshow.js"></script>
+    <script type="text/javascript" src="js/weather.js"></script>
+    <script type="text/javascript" src="js/javascript.js"></script>
+    <script type="text/javascript" src="js/chatbox.js"></script>
+    <script type="text/javascript" src="js/map.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0CCH2HBo0Lu_gfp6G12mn6Bku21rxvfw&callback=initMap">
+    </script>
+    <script type="text/javascript" src="js/audiojs/audio.min.js"></script>
+    <script type="text/javascript" src="js/audiojs/audio.js"></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js"></script>
+</body>
+
+</html>

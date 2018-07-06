@@ -1,0 +1,115 @@
+/* right corner weather box */
+.weather-box {
+	height: 250px;
+	width: 250px;
+	border-radius: 20px
+	margin-left: 300px;
+	margin-top: 30px;
+	padding-left: 35px;
+}
+
+/*google map div */
+
+#map {
+	position: fixed;
+	right: 39px;
+	margin-top: 60px;
+	margin-left: -160px;
+	height: 330px;
+	width: 340px;
+	border-radius: 20px;
+}
+
+/*audio mp3 player div */
+#music {
+	position: absolute;
+	top: 25%;
+	left: 28%;
+	margin: -100px 0 0 -150px;
+	border-radius: 20px;
+}
+
+
+/* chat box style */
+.user {
+    position: relative;
+    left: 450px;
+}
+
+.minimize-button {
+	color: black;
+	font-weight: bold;
+	font-size: 26px;
+	text-align: center;
+	padding-top: 4px;
+	text-decoration: underline;
+}
+
+#chatbox {
+    background: url("../images/chatbox.jpg")  center repeat ;
+    opacity:1.0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: fixed;
+    right: 3%;
+    bottom: 6%;
+    width: 260px;
+    padding-bottom: 4px;
+    color: white;
+    font-family: "Operator Mono SSm A", "Operator Mono SSm B", 'Source Code Pro', Menlo, Consolas, Monaco, monospace;
+}
+
+#minimize-button {
+	float: right;
+	text-align: right;
+    cursor:pointer;
+    background-color: white;
+    width: 10%;
+    font-weight: bold;
+    font-size: 14px;
+    padding-right: 10px;
+
+}
+
+.wrapper {
+	position: relative;
+	left: 10px;
+	overflow: scroll;
+	height: 260px;
+    width: 235px;
+    color: white;
+    font-size: 12px;
+    overflow-x:hidden;
+}
+
+.wrapper::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.wrapper::-webkit-scrollbar {
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+.wrapper::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+
+.username, .message {
+    width: 240px;
+    color: black;
+}
+
+.msg {
+	padding-bottom:3px;
+	margin-top:-25px;
+}
+
+.initModal{
+	margin-top:-20px;
+	padding-bottom: 3px;
+}
